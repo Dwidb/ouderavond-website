@@ -1,0 +1,48 @@
+body
+{
+    margin: 0;
+    
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #02643f;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111111;
+}
+
+.active {
+  background-color: #9cac0c;
+}
+
+.div1 {
+  background-color: #02643f;
+  width: 200px;
+  height: 700px;
+  position:absolute;
+  bottom: 40;
+}
+.div2 {
+  margin-left: 150px;
+  background-color: #9cac0c;
+  width: 1300px;
+  height: 700px;
+}
+ 
